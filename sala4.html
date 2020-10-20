@@ -15,17 +15,17 @@
      <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css"/>
 
     <link rel="icon" type="image/png" href="https://example.com/favicon.png"/>
-    <title>Sala 2 - KM Brasil</title>
+    <title>Sala 4 - Biophotonics</title>
 
 
   </head>
   <body>
-    <p id="num-sala" style="display: none;">sala2</p>
+    <p id="num-sala" style="display: none;">sala1</p>
     <div class="blackground-hero">
 
       <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#">
-          <img src="http://www.biofotonica.com.br/images/logo-white.png" width="32px">
+          <img class="nav-logo" src="http://www.biofotonica.com.br/images/logo-white.png" width="32px">
           6º Fórum Internacional de Biofotônica
         </a>
       </nav>
@@ -37,7 +37,7 @@
             <!-- <iframe width="100%" height="100%" src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
             <!--<div id="player" data-plyr-provider="youtube" data-plyr-embed-id="kMfEvHIb0Js"></div>-->
             <div class="plyr__video-embed" id="player">
-              <iframe
+              <iframe id="player-iframe"
                 src="https://www.youtube.com/embed/uydm58MhXR4?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1&amp;autoplay=1"
                 allowfullscreen
                 allowtransparency
@@ -52,7 +52,7 @@
                 <span class="menu-lateral-item-sala">SALA 1 </span><img src="https://disease.sh/assets/img/flags/br.png" id="flag1" width="30px">
                 <h5 class="menu-lateral-item-title" id="TituloMenu1"></h5>
               </a>
-              <a href="sala2.html" class="menu-lateral-item list-group-item list-group-item-action ref-sala-2 active">
+              <a href="sala2.html" class="menu-lateral-item list-group-item list-group-item-action ref-sala-2">
                 <span class="menu-lateral-item-sala">SALA 2 <img src="https://disease.sh/assets/img/flags/us.png" id="flag2" width="30px"></span>
                 <h5 class="menu-lateral-item-title" id="TituloMenu2"></h5>
               </a>
@@ -60,7 +60,7 @@
                 <span class="menu-lateral-item-sala">SALA 3 <img src="https://disease.sh/assets/img/flags/br.png" id="flag3" width="30px"></span>
                 <h5 class="menu-lateral-item-title" id="TituloMenu3"></h5>
               </a>
-              <a href="sala4.html" class="menu-lateral-item list-group-item list-group-item-action ref-sala-4">
+              <a href="sala4.html" class="menu-lateral-item list-group-item list-group-item-action ref-sala-4 active">
                 <span class="menu-lateral-item-sala">SALA 4 </span>
                 <h5 class="menu-lateral-item-title" id="TituloMenu4"></h5>
               </a>
@@ -76,7 +76,7 @@
         <div class="row player-description">
           <div class="col mb-3 mt-4">
             <h6>VOCÊ ESTÁ ASSISTINDO:</h6>
-            <h2 id="tituloDescricao1">Teste Biofotonica</h2>
+            <h2 id="tituloDescricao4">Teste Biofotonica</h2>
             <hr type="solid">
             <p class="mb-1 mt-1">
               <strong>Descrição da sala</strong><br>
